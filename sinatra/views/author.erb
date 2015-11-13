@@ -1,0 +1,23 @@
+<head>
+<link rel="stylesheet" type="text/css" href="main_style.css">
+</head>
+
+<body>
+
+	<h1>My First Sinatra</h1>
+	<h2>
+	 <b>Author:</b>
+	 Izzy Ironside
+	</h2>
+	<p>
+	 Izzy Ironside was born on
+	 <%= Date.today %>.
+	</p>
+	<% if Date.today.friday? %>
+	 <p>
+	 Izzy Ironside is <strong>NOT</strong>
+	 a fan of Fridays like today.
+	 </p>
+	<% end %>
+
+</body>

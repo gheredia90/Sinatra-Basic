@@ -1,0 +1,9 @@
+body {
+    background-image: url("shunsui.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}

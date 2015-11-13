@@ -1,0 +1,6 @@
+<h2> Time <%= @number_of_hours %> hours ago</h2>
+
+<p>	<%  difference = Time.now.hour - @number_of_hours.to_i  %>
+	<%= "#{difference}:#{Time.now.min}" %>
+</p>
+
